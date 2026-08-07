@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables
+.env
+
+# Model checkpoints
+models/
+checkpoints/
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# FAISS index (if regenerated locally)
+*.faiss
+*.index
+
+# Large embedding files
+*.npy
+*.npz
+*.pt
+*.bin
+
+# Logs
+logs/
+*.log
